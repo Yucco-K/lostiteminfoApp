@@ -27,7 +27,7 @@ const AuthButtonClient = ({ initialSession, initialPosts }: { initialSession: Se
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: 'https://cxhwsktvngsmxnxfhyaj.supabase.co/auth/v1/callback',
+        redirectTo: 'https://lostiteminfo-gy526waxa-yucco-ks-projects.vercel.app/auth/v1/callback',
       },
     });
     if (error) console.error('Sign in error', error.message);

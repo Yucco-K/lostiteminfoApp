@@ -165,7 +165,7 @@ const PostDetail = ({ postId }: PostDetailProps) => {
 			<main className="w-full pb-24">
 				<div className="w-full">
 					<h2
-						className={`w-full bg-neutral-100 text-lg font-bold text-red-500 z-10 sticky top-0 ${styles.contents_h2}`}
+						className={`w-full bg-neutral-100 text-lg font-bold text-black z-10 sticky top-0 ${styles.contents_h2}`}
 					>
 						<div className="w-full max-w-5xl mx-auto p-4">
 							📝 おとしもの詳細

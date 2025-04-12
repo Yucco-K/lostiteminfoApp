@@ -13,8 +13,8 @@ export default function PostPage() {
   }
 
   return (
-    <div>
-      {id && <PostDetail postId={id} />}
-    </div>
+      <div>
+        {id && <PostDetail postId={id} />}
+      </div>
   );
 }

@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import { createRouteHandlerClient } from "@supabase/auth-helpers-nextjs";
 import { cookies } from "next/headers";
 
-export async function GET(request: NextRequest) {
+export const GET = async (request: NextRequest) => {
 	const requestUrl = new URL(request.url);
 	const code = requestUrl.searchParams.get("code");
 
@@ -13,6 +13,5 @@ export async function GET(request: NextRequest) {
 		console.log(session);
 	}
 
-	// リダイレクト先を現在の環境に合わせて動的に設定
 	return NextResponse.redirect(new URL("/", requestUrl.origin));
-}
+};

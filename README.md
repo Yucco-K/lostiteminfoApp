@@ -1,5 +1,21 @@
-
 # lostiteminfoApp
+
+## アプリケーション概要
+
+おとしものインフォメーションは、習い事や塾での子どもの忘れ物管理を効率化するためのアプリケーションです。
+
+### 主な機能
+
+- 管理者による忘れ物情報の投稿・管理
+- 写真付きでの忘れ物情報の共有
+- 発見日時・場所の記録
+- 解決済み/未解決のステータス管理
+
+### デモ動画
+
+アプリケーションの動作デモは以下の動画でご確認いただけます：
+
+[![デモ動画](https://img.youtube.com/vi/ZORQSxzOl1M/0.jpg)](https://youtu.be/ZORQSxzOl1M)
 
 ## 開発 Tips
 
@@ -69,6 +85,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 # lostiteminfoApp
 
 # lostiteminfoApp

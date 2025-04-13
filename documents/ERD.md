@@ -1,47 +1,40 @@
-# ERD 図
+# ERD 図（Mermaid 形式・横長レイアウト）
 
 ```mermaid
 erDiagram
-    users ||--o{ posts : creates
-    users ||--o{ profiles : has
-    posts ||--o{ post_files : contains
+    %% リレーションの定義（上に書くことで先に配置されやすい）
+    auth_users ||--|| profile : has
+    profile ||--o{ post : creates
 
-    users {
-        uuid id PK
-        string email
-        timestamp created_at
-        timestamp updated_at
+    %% テーブル定義
+    auth_users {
+        uuid id
     }
 
-    profiles {
-        uuid id PK
-        uuid user_id FK
+    profile {
+        uuid id
         string role
-        timestamp created_at
-        timestamp updated_at
+        date created_at
+        varchar created_by
+        date updated_at
+        varchar updated_by
+        text remarks_column
     }
 
-    posts {
-        uuid id PK
-        uuid created_by FK
-        string lostitem_name
+    post {
+        uuid id
+        varchar lostitem_name
         date find_date
         time find_time
-        string find_place
+        varchar find_place
         text comment
-        text remarks_column
+        text file_url
         boolean resolved
         boolean hidden
-        timestamp created_at
-        timestamp updated_at
+        date created_at
+        uuid created_by
+        date updated_at
+        varchar updated_by
+        text remarks_column
     }
-
-    post_files {
-        uuid id PK
-        uuid post_id FK
-        string file_url
-        timestamp created_at
-        timestamp updated_at
-    }
-}
 ```

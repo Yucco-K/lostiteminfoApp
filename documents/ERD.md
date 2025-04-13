@@ -1,4 +1,4 @@
-# ERD 図（Mermaid 形式・横長レイアウト）
+# ERD 図（Mermaid 形式）
 
 ```mermaid
 erDiagram

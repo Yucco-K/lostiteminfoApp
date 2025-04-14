@@ -15,10 +15,23 @@
 
 アプリケーションの動作デモは以下の動画でご確認いただけます：
 
-[![デモ動画](https://img.youtube.com/vi/YLICiiwxSp4/0.jpg)](https://youtu.be/YLICiiwxSp4)
+<table>
+  <tr>
+    <td>
+      <a href="https://youtu.be/YLICiiwxSp4">
+        <img src="https://img.youtube.com/vi/YLICiiwxSp4/0.jpg" alt="デモ動画①" width="240" />
+      </a>
+    </td>
+    <td width="24"></td> <!-- スペーサー -->
+    <td>
+      <a href="https://youtu.be/b4VKCa3lDO4">
+        <img src="https://img.youtube.com/vi/b4VKCa3lDO4/0.jpg" alt="デモ動画②" width="240" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-[![デモ動画](https://img.youtube.com/vi/b4VKCa3lDO4/0.jpg)](https://youtu.be/b4VKCa3lDO4)
-
+--- 
 
 ## 開発 Tips
 

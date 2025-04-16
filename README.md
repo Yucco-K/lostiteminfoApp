@@ -9,7 +9,7 @@
 
 🔧 現在はデプロイ担当者が本リポジトリを保守しています。  
 
-🔗 以下のリンクよりご確認いただけます：
+🔗 以下のリンクよりご覧いただけます：
 
 - [📌 Issues](https://github.com/wryyy6124/lostiteminfoApp/issues)  
 - [📌 Pull Requests](https://github.com/wryyy6124/lostiteminfoApp/pulls)

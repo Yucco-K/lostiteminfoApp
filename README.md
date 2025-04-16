@@ -4,6 +4,14 @@
 
 おとしものインフォメーションは、習い事や塾での子どもの忘れ物管理を効率化するためのアプリケーションです。
 
+#### Issue や Pull Request のやり取りは旧リポジトリにあります。  
+現在はデプロイ担当者が本リポジトリを保守しています。  
+以下のリンクよりご確認いただけます：
+
+- [📌 Issues](https://github.com/wryyy6124/lostiteminfoApp/issues)  
+- [📌 Pull Requests](https://github.com/wryyy6124/lostiteminfoApp/pulls)
+
+
 ### 主な機能
 
 - 管理者による忘れ物情報の投稿・管理

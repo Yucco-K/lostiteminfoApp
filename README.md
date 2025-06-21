@@ -42,6 +42,12 @@
   </tr>
 </table>
 
+### documents
+
+- [ERD図](https://github.com/Yucco-K/lostiteminfoApp/blob/main/documents/ERD.md)
+- [要件定義](https://github.com/Yucco-K/lostiteminfoApp/blob/main/documents/REQUIREMENT_DEFINITION.md)
+- [仕様書](https://github.com/Yucco-K/lostiteminfoApp/blob/main/documents/SPECIFICATION.md)
+
 --- 
 
 ## 開発 Tips
